@@ -1,0 +1,96 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yernazarovi | Assignment 4</title>
+    <link rel = "stylesheet" href = "index.css">
+    <link rel="icon"  href="https://toppng.com/uploads/preview/eagle-symbol-png-eagle-head-logo-11562917856khsmpqwfym.png">
+</head>
+<body>
+	<div class="content">	
+		<h1 class="header">$$$$----Money Refund(Qalyn Mal)----$$$$</h1>
+    	<h2 style="color: black">Bride's name <input type="text" id="BrideName" name="Bride's name" size="35"></h2>
+    	<h2 style="color: black">Opening bid <input type="number" id="StartingPrice" name="Opening bid" size="35"></h2>
+		<fieldset class="Education">
+			<h1 style="text-align: center">Education</h1>
+			<h2 style="padding: 40px">Education degree:
+			 	<select id="education">
+					<option value="1.5">Undergraduate Degree</option>
+					<option value="1.2">College Degree</option>
+					<option value="1.05">High School Degree</option>
+					<option value="0.9">Middle school Degree</option>
+				</select>
+				<br>
+			</h2> 
+			<img src="https://www.manageengine.com/products/service-desk/industry/images/education-help-desk.png" width="500"> 
+		</fieldset> 
+		<br><br><br><br>
+		<fieldset class="Cash">
+			<h1 style="text-align: center">Family Budget</h1>
+			<h2 style="padding: 40px">Family net worth:
+			 	<select id="cash">
+					<option value="2">More than 100,000$</option>
+					<option value="1.5">Between 50,000$ and 100,000$</option>
+					<option value="1.2">Less than 50,000$</option>
+				</select>
+				<br>
+			</h2> 
+			<img src="https://i.ibb.co/PF3T6VW/money.png" width="500"> 
+		</fieldset> 
+		<br><br><br><br>
+		<fieldset class="Skills">
+			<h1 style="padding-left: 35%">Skills</h1>
+			<h2>
+				<input type="checkbox" class="skills" value="100">Playing on Dombra
+				<br>
+				<input type="checkbox" class="skills" value="200">Good cook
+				<br>
+				<input type="checkbox" class="skills" value="150">Easygoing character
+				<br>
+				<input type="checkbox" class="skills" value="100">Sings Well
+			</h2> 
+			<img src="https://i1.wp.com/my-home-therapy.com/wp-content/uploads/2018/05/the-selfless-indian-woman-is-tired-angry-and-want-2-18178-1513845042-0_dblbig.jpg?fit=625%2C415&ssl=1" width="500"> 
+		</fieldset> 
+		<br><br><br><br>
+		<fieldset class="Age">
+			<h1>Age</h1>
+			<h2>
+				<input type="radio" class="age" value="1.5">Between 18-23
+				<br>
+				<input type="radio" class="age" value="1.2">Between 24-27
+				<br>
+				<input type="radio" class="age" value="0.95">Older than 27
+			</h2>
+			<img src="https://image.freepik.com/free-vector/woman-age-illustration-female-generation-cycle-women-life-stages_33099-282.jpg" width="500"> 
+		</fieldset> 
+		<br><br><br><br>
+		<fieldset class="Gossips">
+			<h1>Reputation</h1>
+			<h2>Gossips:
+				<br>
+				<input type="checkbox" value="0.85" class="gossips">Gossips about his/her parent's attitude
+				<br>
+				<input type="checkbox" value="0.9" class="gossips">Gossips about his/her character
+				<br>
+				<input type="checkbox" value="200" class="gossips">General gossips around his/her person
+			</h2>
+			<img src="https://i.ibb.co/T24shSP/gossip.png" width="500"> 
+		</fieldset> 
+		<br><br><br><br>
+		<fieldset class="Loveletter">
+			<h1 style="text-align: center">Love Letter ❤️</h1>
+			<textarea maxlength=500 length="600" id="loveletter">
+			</textarea>
+			<img class="imglove" src="https://static01.nyt.com/images/2019/09/25/fashion/loveletter/loveletter-superJumbo-v2.png" width="300">
+		</fieldset> 
+	</div>
+    <div class="res">
+    	<h1 class="submit">Calculate</h1>
+    	<br><br><br>
+    	<h1 class="result">Name: <a  id="resultName"> ______ </a></h1> 
+    	<h1 class="result">Total: <a  id="resultPrice"> ______ </a></h1>
+		<textarea maxlength=500 length="600" id="resultloveletter"></textarea>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
